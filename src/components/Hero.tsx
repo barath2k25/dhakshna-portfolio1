@@ -57,8 +57,8 @@ function CountUp({ target, suffix = '', prefix = '', decimals = 0, duration = 10
 
 const stats = [
   { value: 96.25, decimals: 2, suffix: '%', label: 'Class XII Score', delay: 700  },
-  { value: 3,     decimals: 0, suffix: '',  label: 'Internships',      delay: 850  },
-  { value: 10,    decimals: 0, suffix: '+', label: 'Yrs Tang Soo Do',  delay: 1000 },
+  { value: 8.75,  decimals: 2, suffix: '',  label: 'College CGPA',     delay: 850  },
+  { value: 3,     decimals: 0, suffix: '',  label: 'Internships',      delay: 1000 },
 ];
 
 export default function Hero({ photoSrc }: { photoSrc?: string }) {
