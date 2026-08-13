@@ -346,7 +346,12 @@ a:hover { color: var(--gold-light); }
   }
   .bento-photo-card  { grid-column: 1; grid-row: 1; min-height: 340px; }
   .bento-name-card   { grid-column: 1; grid-row: 2; }
-  .bento-stats-card  { grid-column: 1; grid-row: 3; }
+  .bento-stats-card  { 
+    grid-column: 1; 
+    grid-row: 3; 
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .bento-about-card  { grid-column: 1; grid-row: 4; }
   .bento-contact-card { grid-column: 1; grid-row: 5; }
 }
@@ -391,6 +396,9 @@ a:hover { color: var(--gold-light); }
 
 .stat-item {
   display: flex;
+  flex: 1;
+  min-width: 120px;
+  justify-content: center;
   flex-direction: column;
   gap: 0.2rem;
   padding: 0.8rem;

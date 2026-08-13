@@ -382,16 +382,9 @@ export default function App() {
 
                 <div className="stat-item">
                   <div className="stat-value">
-                    <CountUp target={10} suffix="+" duration={900} delay={introComplete ? 600 : 9999} />
+                    <CountUp target={8.75} decimals={2} duration={900} delay={introComplete ? 600 : 9999} />
                   </div>
-                  <div className="stat-label">Years Tang Soo Do</div>
-                </div>
-
-                <div className="stat-item">
-                  <div className="stat-value" style={{ fontSize: '1.1rem', display: 'flex', gap: '0.5rem' }}>
-                    <span>$</span><span>₹</span><span>€</span>
-                  </div>
-                  <div className="stat-label">Multilingual Markets</div>
+                  <div className="stat-label">College CGPA</div>
                 </div>
               </motion.div>
 
