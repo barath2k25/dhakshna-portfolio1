@@ -125,14 +125,6 @@ export default function Hero({ photoSrc }: { photoSrc?: string }) {
                 alt="Dhakshnamoorthy S"
                 className="hero__image"
               />
-
-              {/* Orbiting finance symbols with keyframe float classes */}
-              <div className="hero__symbol float-s" style={{ top: '-10%', left: '10%' }}>$</div>
-              <div className="hero__symbol float-m" style={{ bottom: '-5%', right: '5%' }}>₹</div>
-              <div className="hero__symbol float-f" style={{ top: '15%', right: '-15%' }}>📈</div>
-              <div className="hero__symbol float-s" style={{ bottom: '15%', left: '-15%' }}>📊</div>
-              <div className="hero__symbol float-m" style={{ top: '-15%', right: '20%' }}>%</div>
-              <div className="hero__symbol float-f" style={{ bottom: '-10%', left: '25%' }}>💰</div>
             </div>
           )}
         </motion.div>
