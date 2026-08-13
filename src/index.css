@@ -381,10 +381,12 @@ a:hover { color: var(--gold-light); }
 
 .bento-name {
   font-family: var(--font-display);
-  font-size: clamp(1.8rem, 4.5vw, 3.2rem);
+  font-size: clamp(1.5rem, 4vw, 2.6rem);
   color: var(--cream);
   line-height: 1.05;
   margin-bottom: 0.8rem;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 .bento-tagline {
